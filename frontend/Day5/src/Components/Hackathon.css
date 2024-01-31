@@ -1,0 +1,103 @@
+
+.hackathon-page h1{
+  display: flex;
+
+}
+.hackathons-list {
+  display: flex;
+  flex-direction: row;   
+  
+   margin-top: 60px;
+   /* display: flex; */
+}
+#slideshow {
+  margin: 0 auto;
+  margin-top: -2cm;
+  margin-left:1cm;
+  height:12cm;
+  
+  /* flex-direction: column; */
+  
+
+  }
+  .bod3
+  {
+    /* background-color: rgb(255, 173, 252); */
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1300px;
+    height: 500px;
+
+  }
+  .slide {
+  float: left;
+  margin-left: 0px;
+display: flex;
+  }
+ 
+  .slide-wrapper {
+  
+  width: calc(1500px * 8);
+  
+  animation: slide 30s ease infinite;
+  }
+ 
+  @keyframes slide {
+  
+  /* Calculate the margin-left for
+  each of the slides */
+  10% {
+    margin-left: 0px;
+  }
+  
+  20% {
+    margin-left: calc(-1500px * 1);
+  }
+  
+  30% {
+    margin-left: calc(-1500px * 2);
+  }
+  
+  40% {
+    margin-left: calc(-1500px * 3);
+  }
+  50% {
+    margin-left: calc(-1500px * 4);
+  }
+  60% {
+    margin-left: calc(-1500px * 5);
+  }
+  70% {
+    margin-left: calc(-1500px * 6);
+  }
+  80% {
+    margin-left: calc(-1500px * 7);
+  }
+  }
+.hackathon-item {
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid grey;
+  }
+  .c1{
+    width: 600px;
+    height: 400px;
+    line-height: 40px;
+    
+  }
+  .c2 img{
+    width:500px;
+    height:500px;
+    
+  }
+  .c2{
+    
+
+    padding: 30px 30px 30px 30px;
+    margin-top: 0px;
+    
+  }
+  /* Add more styling as needed */
+  
