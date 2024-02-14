@@ -1,0 +1,36 @@
+/* AdminHomePage.css */
+
+.admin-home {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: cadetblue;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  main {
+    margin-top: 20px;
+  }
+  
+  .statistics {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .stat-card {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+  }
+  .stat-card:hover{
+    background-color:cadetblue;
+  }
+  
+  

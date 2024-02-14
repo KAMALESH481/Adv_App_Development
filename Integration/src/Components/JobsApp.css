@@ -1,0 +1,62 @@
+.containerForJobs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* position: absolute; */
+}
+.row-jobs{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Individual{
+    display: flex;
+    flex-direction: column;
+    border: 30px solid;
+    border: none;
+    padding: 34px 34px 34px 34px;
+    background-color: antiquewhite;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+ line-height: 40px;
+}
+.Individual:hover{
+    background-color:burlywood;
+}
+
+.Individual img{
+    height:200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Individual img:hover{
+    height:201px;
+    width: 201px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+p4 {
+   border-radius: 10px;
+   background-color: orangered;
+   width:100px;
+  text-align: center;
+  color:black;
+ 
+
+}
+
+.Individual p4:hover{
+
+    background-color: green;
+    
+ }
